@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    height: 90vh;
+    background-image: url('images/banner/banner3.png');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div1{
+  margin-right: 200px;
+  text-align: right;
+  padding-top: 200px;
+  
+}
+.div1 .head-text1{
+    color: white;
+    text-align: right;
+    font-size: 80px;
+
+}
+
+.div1 .para1{
+    margin-top: 20px;
+    color: white;
+}
+
+.div1 .btn1{
+    margin-top: 40px;
+    padding: 15px 20px;
+    color: blue;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5px;
+    border: none;
+}
+
+.first-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.second-header{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.div2{
+    margin-right: 300px;
+}
+
+.second-para{
+    margin-top: 15px;
+    font-size: 17px;
+    color: grey;
+    letter-spacing: 0.8px;
+}
+.list{
+    margin-top: 20px;
+    list-style: none;
+    font-size: 17px;
+    padding-inline: 10px;
+    color: grey;
+    line-height: 1.7;
+    letter-spacing: 0.8px;
+}
+/*my Section css*/
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+ 
+.imag img{
+   height: 400px;
+   width: 400px;
+   margin-left: 120px;
+}
+
+
+.texts{
+   background-color: rgb(218, 218, 218);
+   box-shadow: azure;
+   padding: 80px;
+}
+
+.texts button{
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(52, 65, 252);
+    color: white;
+}
+.texts p{
+    margin-top: 10px;
+}
+
+.texts h4{
+    margin-bottom: 8px;
+    color: rgb(52, 65, 252);
+}
+/*my Section css*/
+.plans{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.job{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    gap: 20px;
+}
+
+.divcontent{
+    text-align: center;
+}
+
+.hh2{
+    margin-top: 15px;
+}
+
+.hh3{
+    margin-top: 7px;
+    color: grey;
+}
+
+.second-last{
+    height: 30vh;
+    width: 60%;
+    background-image: linear-gradient(to right,rgba(52,65,252,1.5),rgba(0, 0, 0,0.1)),url('images/watch.png');
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    margin-left: 380px;
+
+    margin-bottom: 100px;
+}
+
+.seclast-div #h1id{
+    padding-top: 50px;
+    padding-left: 50px;
+    color: white;
+    font-size: 40px;
+}
+.seclast-div #stbtn1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    color: rgb(67, 67, 255)
+}
+
+footer{
+    height: 70vh;
+    background-color: black;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot1{
+    color:white;
+    margin-top: 130px;
+}
+
+.foot2{
+    margin-top: 100px;
+    color: white;
+}
+
+.last h1{
+    font-size: 70px;
+}
+
+.last .paralast1, #para1{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.foot2 .headlast1{
+    font-size: 50px;
+}
+
+.foot2 .input{
+    padding: 20px 50px;
+    border-radius: 5px;
+    background: none;
+    border-color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.foot2 #subscribebutton{
+    padding: 15px 30px;
+    background: blue;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.last ::placeholder{
+    color: white;
+}
+
+.foot1 .icondiv{
+    margin-top: 30px;
+}
+
+.icondiv .imgicon{
+    margin-left: 10px;
+}
+
+.list span{
+    margin-left: 10px;
+}
+
+
+
+
